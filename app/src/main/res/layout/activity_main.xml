@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="257dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+
+        app:srcCompat="@drawable/group_9706"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+
+        android:layout_marginTop="253dp"
+        android:backgroundTint="#00ADEF"
+        android:fontFamily="sans-serif"
+        android:text="Log In"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+
+        android:layout_marginTop="353dp"
+        android:backgroundTint="#00ADEF"
+        android:fontFamily="sans-serif"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+</FrameLayout>

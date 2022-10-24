@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/back"
+        />
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginStart="30dp"
+        android:text="SignUp"
+        android:textColor="#29304D"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="123dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#929498"
+
+        android:background="@drawable/et_style"
+        android:hint="First Name"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#929498"
+        />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="177dp"
+        android:background="@drawable/et_style"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="10dp"
+        android:textColor="#929498"
+        android:textColorHint="#929498"
+        />
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="231dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#929498"
+
+        android:background="@drawable/et_style"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#929498"
+        />
+
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/et_style"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="10dp"
+        android:textColor="#929498"
+        android:textColorHint="#929498"
+        />
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="339dp"
+        android:background="@drawable/et_style"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="10dp"
+        android:textColor="#929498"
+        android:textColorHint="#929498"
+        />
+    <TextView
+        android:id="@+id/responseTV1"
+        android:textColor="#00ADEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:visibility="gone"
+        >
+
+    </TextView>
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+
+        android:layout_marginTop="422dp"
+        android:backgroundTint="#00ADEF"
+        android:fontFamily="sans-serif"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+</FrameLayout>
