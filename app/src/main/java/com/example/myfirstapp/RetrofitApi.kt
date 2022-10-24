@@ -1,5 +1,6 @@
 package com.example.myfirstapp
 
+import androidx.lifecycle.MutableLiveData
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
@@ -15,5 +16,5 @@ interface RetrofitApi {
 
     @Headers("Content-type: application/json; charset=UTF-8")
     @POST("/api/login")
-    fun login(@Body info:Logininfo?): Call<ServerResponse?>
+    fun login(@Body info:MutableLiveData<Logininfo>): Call<ServerResponse?>
 }
