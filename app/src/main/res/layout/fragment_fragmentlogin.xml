@@ -64,8 +64,8 @@
         android:layout_height="19dp"
         android:layout_gravity="end"
         android:layout_marginTop="311dp"
-        android:layout_marginRight="30dp"
-        android:text="Forgot Password?"
+        android:layout_marginEnd="30dp"
+        android:text="@string/forgot_password"
         android:textColor="#8CB81F" />
 
     <TextView
